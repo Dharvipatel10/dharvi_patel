@@ -102,7 +102,7 @@ const blogPosts = [
 const techStack = [
     {
         category: "Frontend",
-        items: ["HTML", "JavaScript (ES6+)", "React.js", "Next.js", "TypeScript", "Angular 2+"],
+        items: ["HTML", "JavaScript (ES6+)", "React.js", "TypeScript", "Angular 2+"],
     },
     {
         category: "Frameworks",
@@ -114,11 +114,15 @@ const techStack = [
     },
     {
         category: "Backend",
-        items: ["Node.js", "Python", "PHP"],
+        items: ["Node.js", "Python", "PHP", "C#"],
     },
     {
         category: "Database",
-        items: ["MySQL", "MongoDB", "PostgreSQL"],
+        items: ["MySQL", "MongoDB", "PostgresSQL", "Redis"],
+    },
+    {
+        category: "Libraries",
+        items: ["Pydantic", "NumPy", "Torch", "openCV", "Uvicorn", "Celery", "WebSockets"],
     },
     {
         category: "Dev Tools",
