@@ -74,35 +74,91 @@ const dockApps = [
     },
 ];
 
-const blogPosts = [
+const myExperience = [
     {
         id: 1,
-        date: "Sep 2, 2025",
-        title:
-            "TypeScript Explained: What It Is, Why It Matters, and How to Master It",
-        image: "/images/blog1.png",
-        link: "https://jsmastery.com/blog/typescript-explained-what-it-is-why-it-matters-and-how-to-master-it",
+        from: "Jan 2025",
+        to: "Jan 2026",
+        title: "Working Student – Full Stack Software Developer",
+        company: "Technical University of Munich",
+        location: "Remote, Germany",
+        description: [
+            "Developed and maintained REST APIs to enhance system functionality.",
+            "Refactored legacy modules into MVC architecture to improve maintainability.",
+            "Implemented new features using PHP and MySQL with clean database integration.",
+            "Worked in Agile workflow using Git Flow, Docker, and CI/CD pipelines."
+        ],
+        techStack: ["HTML5", "CSS3" , "ReactJS", "TypeScript", "PHP", "REST APIs" , "MySQL", "Docker", "Git", "CI/CD" , "Agile Methodology"],
     },
     {
         id: 2,
-        date: "Aug 28, 2025",
-        title: "The Ultimate Guide to Mastering Three.js for 3D Development",
-        image: "/images/blog2.png",
-        link: "https://jsmastery.com/blog/the-ultimate-guide-to-mastering-three-js-for-3d-development",
+        from: "Jul 2024",
+        to: "Jun 2025",
+        title: "Master Thesis – Carla Simulation for Non-Systematic Traffic Vehicles",
+        company: "Technical University of Chemnitz",
+        location: "Chemnitz, Germany",
+        description: [
+            "Designed a simulation model to identify whether vehicles are manually driven or autonomous using trajectory estimation algorithms.",
+            "Applied AI, computer vision techniques, and machine learning for vehicle classification.",
+            "Performed image preprocessing and trained models using NumPy, OpenCV, Torch, and Ultralytics.",
+            "Used CARLA simulation to analyze complex traffic behavior in autonomous vehicle systems."
+        ],
+        techStack: ["Python",
+            "NumPy",
+            "OpenCV",
+            "Torch",
+            "Ultralytics",
+            "CARLA Simulator",
+            "Machine Learning",
+            "Computer Vision"],
     },
     {
         id: 3,
-        date: "Aug 15, 2025",
-        title: "The Ultimate Guide to Mastering GSAP Animations",
-        image: "/images/blog3.png",
-        link: "https://jsmastery.com/blog/the-ultimate-guide-to-mastering-gsap-animations",
+        from: "Mar 2023",
+        to: "Aug 2023",
+        title: "Internship – Software Developer",
+        company: "John Deere",
+        location: "Zweibrücken, Germany",
+        description: [
+            "Built UI screens and integrated controls for mechatronic subsystems.",
+            "Implemented actuator control logic via machine CAN bus using Vector tools.",
+            "Wrote developer-friendly documentation for non-technical users."
+        ],
+        techStack: ["C++", "CAN Bus", "Vector Tools", "UI Development", "Documentation"],
     },
+    {
+        id: 4,
+        from: "Jun 2019",
+        to: "Sep 2021",
+        title: "Software Developer",
+        company: "Nexcode InfoTech",
+        location: "Gujarat, India",
+        description: [
+            "Developed and maintained responsive web pages using HTML, CSS, TypeScript, Angular, and Tailwind CSS.",
+            "Built backend systems using Python and MongoDB",
+            "Implemented and maintained RESTful APIs using FAST API framework.",
+            "Created dynamic Angular components to improve functionality and UI experience.",
+            "Worked with Postman and Git for testing and version control."
+        ],
+        techStack: [
+            "Angular",
+            "TypeScript",
+            "Python",
+            "MongoDB",
+            "FAST API",
+            "Tailwind CSS",
+            "REST API",
+            "Git",
+            "HitHub",
+            "Docker"
+        ]
+    }
 ];
 
 const techStack = [
     {
         category: "Frontend",
-        items: ["HTML", "JavaScript (ES6+)", "React.js", "TypeScript", "Angular 2+"],
+        items: ["HTML", "JavaScript (ES6+)", "React.js", "TypeScript", "Angular 2+", "GSAP"],
     },
     {
         category: "Frameworks",
@@ -198,7 +254,7 @@ export {
     navLinks,
     navIcons,
     dockApps,
-    blogPosts,
+    myExperience,
     techStack,
     socials,
     photosLinks,
@@ -251,16 +307,7 @@ const WORK_LOCATION = {
                     kind: "file",
                     fileType: "img",
                     position: "top-52 right-80",
-                    imageUrl: "/images/project-IntelliBot.png",
-                },
-                {
-                    id: 5,
-                    name: "Design.fig",
-                    icon: "/images/plain.png",
-                    kind: "file",
-                    fileType: "fig",
-                    href: "https://google.com",
-                    position: "top-60 right-20",
+                    imageUrl: "/images/project-IntelliBot.JPG",
                 },
             ],
         },
@@ -271,7 +318,7 @@ const WORK_LOCATION = {
             name: "AI Resume Analyzer",
             icon: "/images/folder.png",
             kind: "folder",
-            position: "top-52 right-80",
+            position: "top-52 right-70",
             windowPosition: "top-[20vh] left-7",
             children: [
                 {
@@ -303,17 +350,8 @@ const WORK_LOCATION = {
                     icon: "/images/image.png",
                     kind: "file",
                     fileType: "img",
-                    position: "top-52 left-80",
+                    position: "top-52 left-70",
                     imageUrl: "/images/project-2.png",
-                },
-                {
-                    id: 5,
-                    name: "Design.fig",
-                    icon: "/images/plain.png",
-                    kind: "file",
-                    fileType: "fig",
-                    href: "https://google.com",
-                    position: "top-60 left-5",
                 },
             ],
         },
@@ -324,7 +362,7 @@ const WORK_LOCATION = {
             name: "Python Background Job Engine",
             icon: "/images/folder.png",
             kind: "folder",
-            position: "top-10 left-80",
+            position: "top-10 left-60",
             windowPosition: "top-[33vh] left-7",
             children: [
                 {
@@ -356,17 +394,17 @@ const WORK_LOCATION = {
                     icon: "/images/image.png",
                     kind: "file",
                     fileType: "img",
-                    position: "top-52 right-80",
-                    imageUrl: "/images/project-3.png",
+                    position: "top-52 right-70",
+                    imageUrl: "/images/Postmann_api.JPG",
                 },
                 {
-                    id: 5,
-                    name: "Design.fig",
-                    icon: "/images/plain.png",
+                    id: 9,
+                    name: "python-background-terminal.png",
+                    icon: "/images/image.png",
                     kind: "file",
-                    fileType: "fig",
-                    href: "https://google.com",
+                    fileType: "img",
                     position: "top-60 right-20",
+                    imageUrl: "/images/terminal_ss.JPG",
                 },
             ],
         },
@@ -377,7 +415,7 @@ const WORK_LOCATION = {
             name: "HustleHub",
             icon: "/images/folder.png",
             kind: "folder",
-            position: "top-10 left-15", // icon position inside Finder
+            position: "top-57 left-65", // icon position inside Finder
             windowPosition: "top-[37vh] left-5", // optional: Finder window position
             children: [
                 {
@@ -386,7 +424,7 @@ const WORK_LOCATION = {
                     icon: "/images/txt.png",
                     kind: "file",
                     fileType: "txt",
-                    position: "top-5 left-10",
+                    position: "top-10 left-10",
                     description: [
                         "HustleHub is a modern Job Portal built using Laravel (PHP) and React, created to manage job listings, applications, and administrative workflows efficiently.",
                         "It features a clean RESTful API architecture that separates frontend and backend for better scalability and maintainability.",
@@ -402,7 +440,7 @@ const WORK_LOCATION = {
                     kind: "file",
                     fileType: "url",
                     href: "https://github.com/Dharvipatel10/HustleHub",
-                    position: "top-10 right-20",
+                    position: "top-15 right-20",
                 },
                 {
                     id: 4,
@@ -410,17 +448,8 @@ const WORK_LOCATION = {
                     icon: "/images/image.png",
                     kind: "file",
                     fileType: "img",
-                    position: "top-52 right-80",
-                    imageUrl: "/images/project-IntelliBot.png",
-                },
-                {
-                    id: 5,
-                    name: "Design.fig",
-                    icon: "/images/plain.png",
-                    kind: "file",
-                    fileType: "fig",
-                    href: "https://google.com",
-                    position: "top-60 right-20",
+                    position: "top-52 right-70",
+                    // imageUrl: "/images/project-IntelliBot.png",
                 },
             ],
         },
@@ -440,26 +469,26 @@ const ABOUT_LOCATION = {
             icon: "/images/image.png",
             kind: "file",
             fileType: "img",
-            position: "top-10 left-5",
-            imageUrl: "/images/Dharvi.JPG",
+            position: "top-10 left-7",
+            imageUrl: "/images/Dharvi.jpg",
         },
         {
             id: 2,
-            name: "casual-me.png",
+            name: "traveller-me.png",
             icon: "/images/image.png",
             kind: "file",
             fileType: "img",
-            position: "top-28 right-72",
+            position: "top-20 right-30",
             imageUrl: "/images/Dharvi-2.jpg",
         },
         {
             id: 3,
-            name: "conference-me.png",
+            name: "casual-me.png",
             icon: "/images/image.png",
             kind: "file",
             fileType: "img",
-            position: "top-52 left-80",
-            imageUrl: "/images/Dharvi-3.jpeg",
+            position: "top-52 left-70",
+            imageUrl: "/images/Dharvi-3.JPG",
         },
         {
             id: 4,
@@ -469,13 +498,12 @@ const ABOUT_LOCATION = {
             fileType: "txt",
             position: "top-60 left-5",
             subtitle: "Meet the Developer Behind the Code",
-            image: "/images/Dharvi.JPG",
+            image: "/images/Dharvi.jpg",
             description: [
                 "Hey! I’m Dharvi 👋, a Full Stack Software Developer currently pursuing my Master’s in Automotive Software Engineering in Germany.",
                 "I build scalable web applications using JavaScript, TypeScript, React, Angular, PHP, and Python — combining clean frontend experiences with solid backend architecture.",
-                "I enjoy designing REST APIs, working with databases like MySQL and MongoDB, and building systems that are structured, maintainable, and actually pleasant to use.",
-                "From simulation-based AI models in autonomous vehicles to real-world full-stack applications, I love turning complex problems into elegant solutions.",
-                "Outside of coding, you’ll probably find me traveling, cooking something experimental, dancing, or reorganizing my workspace like it’s a production deployment 😅"
+                "I enjoy designing REST APIs, working with databases like MySQL, PostgresSQL and MongoDB, and building systems that are structured, maintainable, and actually pleasant to use.",
+                "Outside of coding, you’ll probably find me traveling, cooking something experimental, dancing, or reorganizing my workspace like it’s a production deployment 😅!"
             ],
         },
     ],
@@ -494,6 +522,7 @@ const RESUME_LOCATION = {
             icon: "/images/pdf.png",
             kind: "file",
             fileType: "pdf",
+            href: "/images/Resume.pdf"
             // you can add `href` if you want to open a hosted resume
             // href: "/your/resume/path.pdf",
         },
@@ -522,7 +551,7 @@ const TRASH_LOCATION = {
             icon: "/images/image.png",
             kind: "file",
             fileType: "img",
-            position: "top-40 left-80",
+            position: "top-40 left-60",
             imageUrl: "/images/trash-2.png",
         },
     ],
