@@ -341,7 +341,7 @@ const WORK_LOCATION = {
                     icon: "/images/safari.png",
                     kind: "file",
                     fileType: "url",
-                    href: "https://resumeanalayzer-aichatboat.vercel.app/",
+                    href: "https://resumeanalayzer-ai.vercel.app/",
                     position: "top-20 left-20",
                 },
                 {
