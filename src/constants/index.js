@@ -341,7 +341,7 @@ const WORK_LOCATION = {
                     icon: "/images/safari.png",
                     kind: "file",
                     fileType: "url",
-                    href: "https://github.com/Dharvipatel10/Resume_Analayzer",
+                    href: "https://resumeanalayzer-aichatboat.vercel.app/",
                     position: "top-20 left-20",
                 },
                 {
