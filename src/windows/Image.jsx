@@ -20,7 +20,7 @@ const ImageWindowContent = () => {
             <div className="p-5 bg-white">
                 {imageUrl ? (
                     <div className="w-full">
-                        <img src={imageUrl} alt={name} className="w-full h-auto max-h-[70] object-contain rounded" />
+                        <img src={imageUrl} alt={name} className="w-full h-auto object-contain rounded" />
                     </div>
                 ) : null}
             </div>
