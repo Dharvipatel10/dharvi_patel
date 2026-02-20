@@ -470,7 +470,7 @@ const ABOUT_LOCATION = {
             kind: "file",
             fileType: "img",
             position: "top-10 left-7",
-            imageUrl: "/images/Dharvi.jpg",
+            imageUrl: "/images/Dharvi.JPG",
         },
         {
             id: 2,
@@ -498,7 +498,7 @@ const ABOUT_LOCATION = {
             fileType: "txt",
             position: "top-60 left-5",
             subtitle: "Meet the Developer Behind the Code",
-            image: "/images/Dharvi.jpg",
+            image: "/images/Dharvi.JPG",
             description: [
                 "Hey! I’m Dharvi 👋, a Full Stack Software Developer currently pursuing my Master’s in Automotive Software Engineering in Germany.",
                 "I build scalable web applications using JavaScript, TypeScript, React, Angular, PHP, and Python — combining clean frontend experiences with solid backend architecture.",
