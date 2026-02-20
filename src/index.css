@@ -282,7 +282,7 @@ body {
                     }
 
                     &:nth-child(2) {
-                        @apply row-start-1 row-span-4 col-start-4 col-span-2;
+                        @apply row-start-1 row-span-3 col-start-4 col-span-2;
                     }
 
                     &:nth-child(3) {
