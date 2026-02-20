@@ -283,7 +283,7 @@ const WORK_LOCATION = {
                     icon: "/images/txt.png",
                     kind: "file",
                     fileType: "txt",
-                    position: "top-5 left-10",
+                    position: "top-10 right-20",
                     description: [
                         "IntelliBot is a full-stack AI voice assistant that turns conversations into a real-time interactive experience.",
                         "It captures speech, processes it using ChatGPT, and responds with natural voice synthesis powered by ElevenLabs.",
@@ -298,7 +298,7 @@ const WORK_LOCATION = {
                     kind: "file",
                     fileType: "url",
                     href: "https://github.com/Dharvipatel10/IntelliBot",
-                    position: "top-10 right-20",
+                    position: "top-10 left-10",
                 },
                 {
                     id: 4,
@@ -306,7 +306,7 @@ const WORK_LOCATION = {
                     icon: "/images/image.png",
                     kind: "file",
                     fileType: "img",
-                    position: "top-52 right-80",
+                    position: "top-45 right-70",
                     imageUrl: "/images/project-IntelliBot.JPG",
                 },
             ],
@@ -318,7 +318,7 @@ const WORK_LOCATION = {
             name: "AI Resume Analyzer",
             icon: "/images/folder.png",
             kind: "folder",
-            position: "top-52 right-70",
+            position: "top-40 right-75",
             windowPosition: "top-[20vh] left-5",
             children: [
                 {
@@ -327,7 +327,7 @@ const WORK_LOCATION = {
                     icon: "/images/txt.png",
                     kind: "file",
                     fileType: "txt",
-                    position: "top-5 right-10",
+                    position: "top-10 right-20",
                     description: [
                         "AI Resume Analyzer is a smart tool that helps you perfect your resume with instant feedback.",
                         "Instead of guessing what recruiters want, you get AI-powered insights on keywords, formatting, and overall impact.",
@@ -342,7 +342,7 @@ const WORK_LOCATION = {
                     kind: "file",
                     fileType: "url",
                     href: "https://resumeanalayzer-ai.vercel.app/",
-                    position: "top-20 left-20",
+                    position: "top-45 left-10",
                 },
                 {
                     id: 4,
@@ -350,7 +350,7 @@ const WORK_LOCATION = {
                     icon: "/images/image.png",
                     kind: "file",
                     fileType: "img",
-                    position: "top-52 left-70",
+                    position: "top-10 left-10",
                     imageUrl: "/images/project-2.png",
                 },
             ],
@@ -371,7 +371,7 @@ const WORK_LOCATION = {
                     icon: "/images/txt.png",
                     kind: "file",
                     fileType: "txt",
-                    position: "top-5 left-10",
+                    position: "top-10 left-10",
                     description: [
                         "The FastAPI Background Job Engine is a compact, production-style backend prototype designed to demonstrate how modern systems handle asynchronous workloads.",
                         "Instead of blocking API requests during heavy processing, it instantly validates structured data and offloads tasks to background workers using Redis and RQ.",
@@ -394,7 +394,7 @@ const WORK_LOCATION = {
                     icon: "/images/image.png",
                     kind: "file",
                     fileType: "img",
-                    position: "top-52 right-70",
+                    position: "top-50 right-70",
                     imageUrl: "/images/Postmann_api.JPG",
                 },
                 {
@@ -403,7 +403,7 @@ const WORK_LOCATION = {
                     icon: "/images/image.png",
                     kind: "file",
                     fileType: "img",
-                    position: "top-60 right-20",
+                    position: "top-50 right-20",
                     imageUrl: "/images/terminal_ss.JPG",
                 },
             ],
@@ -415,7 +415,7 @@ const WORK_LOCATION = {
             name: "HustleHub",
             icon: "/images/folder.png",
             kind: "folder",
-            position: "top-57 left-65", // icon position inside Finder
+            position: "top-45 left-60", // icon position inside Finder
             windowPosition: "top-[48vh] left-13", // optional: Finder window position
             children: [
                 {
@@ -440,7 +440,7 @@ const WORK_LOCATION = {
                     kind: "file",
                     fileType: "url",
                     href: "https://github.com/Dharvipatel10/HustleHub",
-                    position: "top-15 right-20",
+                    position: "top-10 right-20",
                 },
                 {
                     id: 4,
@@ -448,8 +448,53 @@ const WORK_LOCATION = {
                     icon: "/images/image.png",
                     kind: "file",
                     fileType: "img",
-                    position: "top-52 right-70",
+                    position: "top-45 right-70",
                     // imageUrl: "/images/project-IntelliBot.png",
+                },
+            ],
+        },
+
+        // ▶ Project 5
+        {
+            id: 9,
+            name: "Portfolio",
+            icon: "/images/folder.png",
+            kind: "folder",
+            position: "top-70 right-75", // icon position inside Finder
+            windowPosition: "top-[62vh] left-13", // optional: Finder window position
+            children: [
+                {
+                    id: 1,
+                    name: "MyPortfolio.txt",
+                    icon: "/images/txt.png",
+                    kind: "file",
+                    fileType: "txt",
+                    position: "top-10 left-10",
+                    description: [
+                        "This is a macOS-style interactive portfolio built using JavaScript, GSAP, Vite, and TailwindCSS, designed to replicate the smooth and elegant desktop experience of macOS.",
+                        "It features animated window transitions, draggable elements, and fluid motion effects powered by GSAP for a highly engaging and dynamic user interface.",
+                        "The project is bundled with Vite, ensuring lightning-fast development, optimized builds, and modern module support for better performance.",
+                        "TailwindCSS is used to craft a clean, responsive, and utility-first design system that maintains consistency across all components.",
+                        "Designed as a creative developer showcase, this portfolio combines animation, performance, and modern frontend architecture into a seamless macOS-inspired experience.",
+                    ],
+                },
+                {
+                    id: 2,
+                    name: "MyPortfolio.com",
+                    icon: "/images/safari.png",
+                    kind: "file",
+                    fileType: "url",
+                    href: "https://dharvipatel.vercel.app/",
+                    position: "top-52 right-70",
+                },
+                {
+                    id: 4,
+                    name: "MyPortfolio.png",
+                    icon: "/images/image.png",
+                    kind: "file",
+                    fileType: "img",
+                    position: "top-10 right-20",
+                    imageUrl: "/images/portfolio.PNG",
                 },
             ],
         },
@@ -469,7 +514,7 @@ const ABOUT_LOCATION = {
             icon: "/images/image.png",
             kind: "file",
             fileType: "img",
-            position: "top-10 left-7",
+            position: "top-10 left-5",
             imageUrl: "/images/Dharvi.JPG",
         },
         {
@@ -478,7 +523,7 @@ const ABOUT_LOCATION = {
             icon: "/images/image.png",
             kind: "file",
             fileType: "img",
-            position: "top-20 right-30",
+            position: "top-10 right-20",
             imageUrl: "/images/Dharvi-2.jpg",
         },
         {
@@ -487,7 +532,7 @@ const ABOUT_LOCATION = {
             icon: "/images/image.png",
             kind: "file",
             fileType: "img",
-            position: "top-52 left-70",
+            position: "top-50 left-60",
             imageUrl: "/images/Dharvi-3.JPG",
         },
         {
@@ -496,7 +541,7 @@ const ABOUT_LOCATION = {
             icon: "/images/txt.png",
             kind: "file",
             fileType: "txt",
-            position: "top-60 left-5",
+            position: "top-50 left-7",
             subtitle: "Meet the Developer Behind the Code",
             image: "/images/Dharvi.JPG",
             description: [
@@ -551,7 +596,7 @@ const TRASH_LOCATION = {
             icon: "/images/image.png",
             kind: "file",
             fileType: "img",
-            position: "top-40 left-60",
+            position: "top-45 left-10",
             imageUrl: "/images/trash-2.png",
         },
     ],
