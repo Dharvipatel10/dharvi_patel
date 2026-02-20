@@ -78,7 +78,7 @@ const myExperience = [
     {
         id: 1,
         from: "Jan 2025",
-        to: "Jan 2026",
+        to: "Present",
         title: "Working Student – Full Stack Software Developer",
         company: "Technical University of Munich",
         location: "Remote, Germany",
