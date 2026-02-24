@@ -290,6 +290,7 @@ const WORK_LOCATION = {
                         "Rather than a traditional chatbot, it feels like talking to a smart digital companion.",
                         "Built with FastAPI and React, it showcases modern AI integration, RESTful architecture, and seamless voice interaction pipelines."
                     ],
+                    techStack: ["Python", "FastAPI", "Pydantic", "Uvicorn", "RESTful API", "React", "Javascript", "TailwindCss", "OpenAI", "ElevenLabs", "TTs", "Speech-to-Text", "Git", "VSCode", "GitHub", "Postman"],
                 },
                 {
                     id: 2,
@@ -334,6 +335,7 @@ const WORK_LOCATION = {
                         "Think of it like having a career coach—pointing out strengths, fixing weaknesses, and boosting your chances of landing interviews.",
                         "It's built with React and Tailwind, and Puter.js so it runs fast, looks professional, and works seamlessly on any device.",
                     ],
+                    techStack: ["React", "TypeScript", "React Router", "TailwindCSS", "Vite", "Zustand", "PUTER.JS", "AI"],
                 },
                 {
                     id: 2,
@@ -378,6 +380,7 @@ const WORK_LOCATION = {
                         "Think of it as a simplified version of how real AI platforms and automation systems process jobs behind the scenes.",
                         "Built with FastAPI, Pydantic, Redis, and RQ, it showcases scalable backend architecture, clean data validation, and non-blocking execution patterns."
                     ],
+                    techStack: ["FAST API", "Pydantic", "Redis", "Uvicorn", "RQ Worker"],
                 },
                 {
                     id: 2,
@@ -432,6 +435,7 @@ const WORK_LOCATION = {
                         "Laravel powers authentication, authorization, database operations, and business logic using structured MVC principles.",
                         "Designed like a real-world hiring system, HustleHub combines performance, security, and scalability into one seamless platform.",
                     ],
+                    techStack: ["React", "Vite", "TailwindCSS", "Laravel Framework", "MVC Architecture", "PostgresSQL", "RESTful", "Composer", "Node.js", "Artisan CLI", "NPM Packages"],
                 },
                 {
                     id: 2,
@@ -477,6 +481,7 @@ const WORK_LOCATION = {
                         "TailwindCSS is used to craft a clean, responsive, and utility-first design system that maintains consistency across all components.",
                         "Designed as a creative developer showcase, this portfolio combines animation, performance, and modern frontend architecture into a seamless macOS-inspired experience.",
                     ],
+                    techStack: ["React", "Vite", "TailwindCSS", "JavaScript", "GSAP", "Zustand", "Git", "GitHub", "VSCode"],
                 },
                 {
                     id: 2,
@@ -495,6 +500,52 @@ const WORK_LOCATION = {
                     fileType: "img",
                     position: "top-10 right-20",
                     imageUrl: "/images/portfolio.PNG",
+                },
+            ],
+        },
+
+        // ▶ Project 6
+        {
+            id: 10,
+            name: "Movie Rating App",
+            icon: "/images/folder.png",
+            kind: "folder",
+            position: "top-75 right-20",
+            windowPosition: "top-[75vh] left-5",
+            children: [
+                {
+                    id: 1,
+                    name: "Movie Rating App.txt",
+                    icon: "/images/txt.png",
+                    kind: "file",
+                    fileType: "txt",
+                    position: "top-10 right-20",
+                    description: [
+                        "MovieRatingApp is a full-stack Single Page Application that lets users explore movies, read reviews, and share their own ratings and feedback.",
+                        "Users can browse a dynamic movie list, view detailed information, and see real-time average ratings calculated from community reviews.",
+                        "The backend is powered by a .NET 8 RESTful API with Entity Framework Core, ensuring clean architecture and efficient data handling.",
+                        "An Angular and TypeScript frontend delivers a fast, responsive experience while seamlessly communicating with the API.",
+                        "Designed with SQL Server integration and modern development practices, it demonstrates a complete end-to-end web application workflow from database to user interface."
+                    ],
+                    techStack: ["Angular", "TypeScript", ".NET 8", "Entity Framework Core", "SQL Server", "REST API"],
+                },
+                {
+                    id: 2,
+                    name: "movie-rating-app.com",
+                    icon: "/images/safari.png",
+                    kind: "file",
+                    fileType: "url",
+                    href: "https://github.com/Dharvipatel10/MovieApp",
+                    position: "top-45 left-10",
+                },
+                {
+                    id: 4,
+                    name: "movie-rating-app.png",
+                    icon: "/images/image.png",
+                    kind: "file",
+                    fileType: "img",
+                    position: "top-10 left-10",
+                    imageUrl: "/images/movieRating (1).jpeg",
                 },
             ],
         },
