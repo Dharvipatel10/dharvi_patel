@@ -453,7 +453,7 @@ const WORK_LOCATION = {
                     kind: "file",
                     fileType: "img",
                     position: "top-45 right-70",
-                    // imageUrl: "/images/project-IntelliBot.png",
+                    imageUrl: "/images/HustleHub.jpg",
                 },
             ],
         },
