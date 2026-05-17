@@ -504,6 +504,59 @@ const WORK_LOCATION = {
             ],
         },
 
+        // ▶ Project 7
+        {
+            id: 11,
+            name: "München Live GIS",
+            icon: "/images/folder.png",
+            kind: "folder",
+            position: "top-95 right-75",
+            windowPosition: "top-[7vh] left-35",
+            children: [
+                {
+                    id: 1,
+                    name: "München Live GIS.txt",
+                    icon: "/images/txt.png",
+                    kind: "file",
+                    fileType: "txt",
+                    position: "top-10 right-20",
+                    description: [
+                        "Built a high-performance Single Page Application with Angular 17+ and TypeScript for real-time urban asset exploration across Munich.",
+                        "Integrated Leaflet with live OpenStreetMap data feeds to instantly stream and visualize six custom, color-coded infrastructure layers.",
+                        "Optimized network performance by implementing spatial query debouncing and boundary threshold caching to minimize API overhead.",
+                        "Engineered a robust multi-server failover routing mechanism that automatically handles server timeouts by redirecting traffic across active mirrors.",
+                        "Utilized Overpass QL to collapse complex spatial geometries into clean center coordinates, ensuring a fast, optimized data pipeline."
+                    ],
+                    techStack: ["Angular",
+                        "TypeScript",
+                        "Leaflet API",
+                        "Overpass QL",
+                        "HttpClient",
+                        "HTML5",
+                        "CSS3",
+                        "FontAwesome Icons"],
+                },
+                {
+                    id: 2,
+                    name: "munich-live-gis.com",
+                    icon: "/images/safari.png",
+                    kind: "file",
+                    fileType: "url",
+                    href: "https://github.com/Dharvipatel10/geo-map-Munich",
+                    position: "top-45 left-10",
+                },
+                {
+                    id: 4,
+                    name: "munich-live-gis",
+                    icon: "/images/image.png",
+                    kind: "file",
+                    fileType: "img",
+                    position: "top-10 left-10",
+                    imageUrl: "/images/geo-map-Munich.JPG",
+                },
+            ],
+        },
+
         // ▶ Project 6
         {
             id: 10,
